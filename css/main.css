@@ -1,0 +1,349 @@
+
+/* poppins-regular - latin */
+// @font-face {
+//     font-family: 'Poppins';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local(''),
+//          url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//          url('../fonts/poppins-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
+
+*{
+    //font-family: 'poppins', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #bd1f9b;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #f310cd;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main-flex {
+    display: flex;
+}
+
+.imgs img{
+    width: 15rem;
+    object-fit: contain;
+    aspect-ratio: 1/2;
+    margin-right: 1rem;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;    
+    // background-image: url(../img/web.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color:#640650;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.main h3 {
+    width: 40rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.main-btn {
+    color: #fff;
+    background-color: #f159cb;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: #000000;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: black;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #bd1f9b;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px #000;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: #000000;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: #bd1f9b;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects {
+    background-color: #000;
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: #ffff;
+    border: 5px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover {
+transform: scale(1.1);
+}
+
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+
+.project-image img {
+    width: 100%;
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 0.9em;
+    color: #000;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.contact .icon {
+    font-size: 4.5em;
+}
+
+.contact .info h3 {
+    color: #bd1f9b;
+}
+
+.contact .info p {
+    font-size: 1.5em;
+}
+
+.footer {
+    background-color: #bd1f9b;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #000000;
+}
+
+.project-info a {
+    text-decoration: none;
+    color: #70185d;
+}
+
+// De nieuwe 
+
+.skills {
+    background-color: #000000;
+}
+
+.skills .content{
+    margin-top: 30px;
+}
+
+.skill-card {
+    background-color: #ffff;
+    border: 5px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.skill-card:hover {
+transform: scale(1.1);
+}
+
+.skill-card:hover .project-image{
+    opacity: 0.9;
+}
+
+.skill-image img {
+    width: 100%;
+}
+
+.skill-info {
+    padding: 1em;
+}
+
+.skill-category {
+    font-size: 0.9em;
+    color: #000;
+}
+
+.skill-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+
+
+@media (max-width:1023px){
+    header{
+        padding: 12 px 20px;
+    }
+
+    .navigation{
+    padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    .section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641ox){
+    body{
+        font-size: 12px;
+    }
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+    }
+}
+
+
+
+
+ 
