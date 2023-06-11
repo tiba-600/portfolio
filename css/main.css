@@ -61,6 +61,7 @@ section {
 .main-flex {
     display: flex;
     // margin-top: 5rem;
+    
 }
 
 .text-text {
@@ -69,7 +70,13 @@ section {
 
 .imgs {
     margin-right: 5rem;
-    margin-top: 0rem;
+    margin-top: 5rem;
+    border-right: 2px solid #70185d;
+    border-bottom: 2px solid #70185d;
+    border-top: 2px solid #70185d;
+    border-left: 2px solid #70185d;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 
@@ -77,7 +84,6 @@ section {
     width: 20rem;
     object-fit: contain;
     aspect-ratio: 1/2;
-
 }
 
 .main{
@@ -340,7 +346,10 @@ textarea, input,button{
 
 .flex {
     display: flex;
-    margin-left: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: space-between;
+    justify-content: center;
 }
 
 
@@ -348,7 +357,52 @@ textarea, input,button{
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    color: #70185d;
+    color: black;
+    width: 26rem;
+}
+
+.button {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.contact-me {
+    margin-left: 5rem;
+    margin-top: 2rem;
+    border-left: 2px solid #70185d;
+    border-right: 2px solid #70185d;
+    border-bottom: 2px solid #70185d;
+    border-top: 2px solid #70185d;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 20rem;
+}
+
+.contact-me-gsm h1 {
+   color: #640650;
+}
+
+.contact-me-gsm {
+    margin-top: 1rem;
+}
+
+.contact-me-email h1 {
+    color: #640650;
+    margin-top: 2rem;
+}
+
+.contact-me-email {
+    margin-bottom: 3rem;
+}
+
+.footor {
+    background-color: #f159cb;
+}
+
+.footor h2 {
+   text-align: center;
 }
 
 
